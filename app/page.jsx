@@ -5,6 +5,7 @@ import Experience from "../components/Experience";
 import Project from "$/components/Projects";
 import { motion, useScroll } from "framer-motion";
 import { ReactLenis, useLenis } from "lenis/react";
+import Footer from "$/components/footer";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -34,6 +35,7 @@ export default function Home() {
       <HomePage />
       <Experience />
       <Project />
+      <Footer />
     </ReactLenis>
   );
 }
