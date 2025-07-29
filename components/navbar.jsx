@@ -24,7 +24,7 @@ export default function Nav() {
           {/* Desktop links */}
           <div className="hidden md:flex space-x-8 relative right-5 text-white font-medium">
             {[
-              { href: "#aboutMe", label: "About" },
+              { href: "#aboutMe", label: "Abou.t" },
               { href: "#projects", label: "Projects." },
               { href: "#workDone", label: "Experience." },
               { href: "#contact", label: "Contact." },
