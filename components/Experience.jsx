@@ -1,7 +1,7 @@
 import ScrollFadeInOut from "./ScrollFadeIn";
 import { Inter } from "next/font/google";
 import StyledArtCards from "./StylizedArtCard";
-import { Github, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin, Instagram, BriefcaseBusiness } from "lucide-react";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -85,6 +85,12 @@ export default function Experience() {
                   className="hover:text-[#c27fe6] transition"
                 >
                   <Github size={30} strokeWidth={1.5} />
+                </a>
+                <a
+                  href="https://www.upwork.com/freelancers/~018ddc9a40203dfdaa"
+                  className="hover:text-[#478281] transition"
+                >
+                  <BriefcaseBusiness size={30} strokeWidth={1.5} />
                 </a>
               </div>
             </div>
