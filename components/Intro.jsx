@@ -66,7 +66,7 @@ export default function HomePage() {
                   asChild
                   className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[#6A93FF] to-[#4762FF] text-white font-medium text-lg shadow-md hover:brightness-110 hover:scale-105 transition duration-200"
                 >
-                  <Link href="/logi">
+                  <Link href="/hire">
                     Hire Me <FaArrowRight />
                   </Link>
                 </Button>

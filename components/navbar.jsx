@@ -24,10 +24,10 @@ export default function Nav() {
           {/* Desktop links */}
           <div className="hidden md:flex space-x-8 relative right-5 text-white font-medium">
             {[
-              { href: "/", label: "Home." },
-              { href: "/projects", label: "Projects." },
-              { href: "/experience", label: "Experience." },
-              { href: "/contact", label: "Contact." },
+              { href: "#aboutMe", label: "About" },
+              { href: "#projects", label: "Projects." },
+              { href: "#workDone", label: "Experience." },
+              { href: "#contact", label: "Contact." },
             ].map(({ href, label }) => (
               <Link
                 key={href}
@@ -68,16 +68,17 @@ export default function Nav() {
             </button>
 
             <nav className="flex flex-col space-y-6 text-2xl font-light text-white">
-              <Link href="/" onClick={() => setMenuOpen(false)}>
-                Home
+              <Link href="#aboutMe" onClick={() => setMenuOpen(false)}>
+                About
               </Link>
-              <Link href="/projects" onClick={() => setMenuOpen(false)}>
+              <Link href="#projects" onClick={() => setMenuOpen(false)}>
                 Projects
               </Link>
-              <Link href="/experience" onClick={() => setMenuOpen(false)}>
+
+              <Link href="#workDone" onClick={() => setMenuOpen(false)}>
                 Experience
               </Link>
-              <Link href="/contact" onClick={() => setMenuOpen(false)}>
+              <Link href="#contact" onClick={() => setMenuOpen(false)}>
                 Contact
               </Link>
             </nav>

@@ -13,6 +13,7 @@ export default function Experience() {
   return (
     <ScrollFadeInOut>
       <div
+        id="aboutMe"
         className={`${inter.variable} antialiased h-screen text-gray-400	 bg-gradient-to-br from-[#0a0f1a] via-[#1a2338] to-[#121826]`}
         style={{ fontFamily: "var(--font-inter)" }}
       >

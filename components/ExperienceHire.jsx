@@ -14,7 +14,7 @@ export default function FinalPage() {
   return (
     <ScrollFadeInOut>
       <section
-        id="page-4"
+        id="workDone"
         className={`${inter.variable}  flex flex-col items-center   bg-gradient-to-br from-[#0a0f1a] via-[#1a2338] to-[#121826] px-4`}
         style={{ fontFamily: "var(--font-inter)" }} // ✅ Only font family here
       >
