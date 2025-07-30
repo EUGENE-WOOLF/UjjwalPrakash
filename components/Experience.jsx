@@ -49,7 +49,7 @@ export default function Experience() {
                   </span>
                   <span className="bg-[#1f2a40] px-2 py-0.5 rounded">Rust</span>
                   <span className="bg-[#1f2a40] px-2 py-0.5 rounded">
-                    Bio Medical Engineer
+                    Core Engineer
                   </span>
                 </div>
 
