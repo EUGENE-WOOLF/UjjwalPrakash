@@ -35,10 +35,10 @@ export default function HireMe() {
             </div>
 
             <div className="flex flex-wrap justify-center  px-4 pb-16">
-              <div className="flex  flex-col items-center h-[60vh] md:h-[100vh]  w-full sm:w-[45%] bg-[#57529e] text-[#f3f3f3] rounded-t-2xl md:rounded-t-none md:rounded-l-2xl shadow-lg p-6">
+              <div className="flex  flex-col items-center h-[60vh] lg:h-[100vh]  w-full sm:w-[45%] bg-[#57529e] text-[#f3f3f3] rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl shadow-lg p-6">
                 <div className="w-full sm:w-[90%] overflow-hidden p-4 rounded-lg">
                   <Image
-                    src="/arthire.png"
+                    src="/arthire.webp"
                     alt="This is me"
                     width={900}
                     height={600}
@@ -58,7 +58,7 @@ export default function HireMe() {
                   </ul>
                 </div>
               </div>
-              <div className="flex flex-col  h-[80vh] md:h-[100vh] w-full  sm:w-[45%] bg-[#f3f3f3] text-[#4c4880] rounded-b-2xl md:rounded-l-none md:rounded-r-2xl  shadow-lg p-6">
+              <div className="flex flex-col  h-auto lg:h-[100vh] w-full  lg:w-[45%] bg-[#f3f3f3] text-[#4c4880] rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl  shadow-lg p-6">
                 <div className="self-end ">
                   <span className="bg-[#4c4880] text-[#f3f3f3] px-4 py-0.5 rounded-xl">
                     Start Today
