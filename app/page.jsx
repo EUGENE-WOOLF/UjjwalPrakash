@@ -11,10 +11,7 @@ import FinalPage from "../components/ExperienceHire";
 export default function Home() {
   const { scrollYProgress } = useScroll();
 
-  // optional: this just logs the lenis object each scroll tick
-  useLenis((lenis) => {
-    // You can hook into scroll here
-  });
+  useLenis((lenis) => {});
 
   return (
     <ReactLenis root>

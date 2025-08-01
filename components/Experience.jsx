@@ -1,7 +1,7 @@
 import ScrollFadeInOut from "./ScrollFadeIn";
-import { Inter } from "next/font/google";
 import StyledArtCards from "./StylizedArtCard";
 import { Github, Linkedin, Instagram, BriefcaseBusiness } from "lucide-react";
+import { Inter } from "next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -50,6 +50,9 @@ export default function Experience() {
                   <span className="bg-[#1f2a40] px-2 py-0.5 rounded">Rust</span>
                   <span className="bg-[#1f2a40] px-2 py-0.5 rounded">
                     Core Engineer
+                  </span>
+                  <span className="bg-[#1f2a40] px-2 py-0.5 rounded">
+                    IIT KANPUR
                   </span>
                 </div>
 

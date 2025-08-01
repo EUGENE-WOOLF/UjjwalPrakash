@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #1a0a2a, #0d0413);
+  overflow: hidden; /* Important for some effects */
+}
+
+.hireMeText {
+  font-size: 8rem; /* Larger font size */
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position: relative;
+  /* Initial state for animations */
+  transform: scale(0.8);
+  opacity: 0;
+  animation: fadeInScale 1.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1),
+    neonGlow 2s infinite alternate ease-in-out;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff,
+    0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+  color: #fff; /* Base color for text */
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  background-image: linear-gradient(
+    45deg,
+    #f06,
+    #9f6
+  ); /* Subtle gradient for base text */
+  transition: all 0.3s ease-in-out; /* Smooth transitions for hover */
+}
+
+/* Keyframes for animations */
+@keyframes fadeInScale {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0ff, 0 0 40px #0ff,
+      0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0ff, 0 0 20px #0ff,
+      0 0 35px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 75px #0ff;
+  }
+}
+
+/* Optional: Hover effect for even more impact */
+.hireMeText:hover {
+  transform: scale(1.05) rotate(1deg);
+  text-shadow: 0 0 15px #f0f, 0 0 25px #f0f, 0 0 35px #f0f, 0 0 45px #f0f,
+    0 0 80px #f0f, 0 0 90px #f0f, 0 0 110px #f0f, 0 0 160px #f0f;
+  animation: none; /* Stop the neon glow on hover if desired, or change it */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hireMeText {
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+  }
+}
+
+@media (max-width: 480px) {
+  .hireMeText {
+    font-size: 3rem;
+  }
+}
