@@ -21,7 +21,7 @@ export default function HireMe() {
     <>
       <ScrollFadeInOut>
         <div
-          className={`${inter.className} bg-gradient-to-br from-[#1b133f] via-[#5a4fff] to-[#0e0c29] text-white px-4`}
+          className={`${inter.className} font-inter bg-gradient-to-br from-[#1b133f] via-[#5a4fff] to-[#0e0c29] text-white px-4`}
         >
           <Nav />
           <div className="flex flex-col">
