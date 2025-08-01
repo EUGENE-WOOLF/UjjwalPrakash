@@ -66,7 +66,6 @@ export default function HireMe() {
                     <li>Deployment</li>
                     <li>Quality Code</li>
                     <li>Good Communication</li>
-                    <li>Flexibility</li>
                   </ul>
                 </div>
               </div>
