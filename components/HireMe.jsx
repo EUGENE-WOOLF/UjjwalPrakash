@@ -122,7 +122,7 @@ export default function HireMe() {
                     ))}
                   </div>
                   <div className="mt-4 flex justify-center">
-                    <button className="flex items-center gap-2 bg-[#4c4880] text-[#f3f3f3] px-5 py-2 rounded-xl shadow-md hover:bg-[#3e3a6d] transition-all duration-200">
+                    <button className="flex items-center gap-2 bg-[#4c4880] text-[#f3f3f3] px-5 py-2 md:py-4 rounded-xl shadow-md hover:bg-[#3e3a6d] transition-all duration-200">
                       <a
                         href="https://mail.google.com/mail/?view=cm&fs=1&to=ujjwalprakash858@gmail.com"
                         target="_blank"
