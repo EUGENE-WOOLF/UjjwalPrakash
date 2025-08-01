@@ -28,8 +28,20 @@ export default function HireMe() {
             <div className="my-10">
               <h1 className="text-5xl font-bold text-center bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x drop-shadow-md tracking-wide mb-6">
                 Hire{" "}
-                <span className="text-gray-100 relative inline-block underline decoration-2 underline-offset-4">
+                <span className="relative inline-block text-gray-100">
                   Me
+                  <svg
+                    className="absolute -bottom-1 left-0 w-full h-2"
+                    viewBox="0 0 100 10"
+                    preserveAspectRatio="none"
+                  >
+                    <path
+                      d="M0 5 Q 25 0 50 5 T 100 5"
+                      stroke="#a78bfa"
+                      strokeWidth="2"
+                      fill="transparent"
+                    />
+                  </svg>
                 </span>
               </h1>
             </div>
