@@ -60,7 +60,7 @@ export default function HireMe() {
                     Not knowing is a good place to start
                   </p>
                 </div>
-                <div className=" text-xl pt-5 font-semibold space-y-2 leading-relaxed list-inside list-disc">
+                <div className=" text-2xl pt-5 font-semibold space-y-2 leading-relaxed list-inside list-disc">
                   <ul className="pl-4">
                     <li>Development</li>
                     <li>Deployment</li>
@@ -71,11 +71,11 @@ export default function HireMe() {
               </div>
               <div className="flex flex-col  h-auto lg:h-[100vh] w-full  lg:w-[45%] bg-[#f3f3f3] text-[#4c4880] rounded-b-2xl lg:rounded-l-none lg:rounded-r-2xl  shadow-lg p-6">
                 <div className="self-end ">
-                  <span className="bg-[#4c4880] text-[#f3f3f3] px-4 py-0.5 rounded-xl">
+                  <span className="bg-[#4c4880] text-[#f3f3f3] px-4 py-0.5 rounded-2xl">
                     Start Today
                   </span>
                 </div>
-                <div className="text-4xl font-bold pt-9 flex items-center gap-2">
+                <div className="text-5xl font-bold pt-9 flex items-center gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -91,17 +91,17 @@ export default function HireMe() {
                     />
                   </svg>
                   $18.5
-                  <span className="text-2xl text-[#a9a6a6]">/hour</span>
+                  <span className="text-3xl text-[#a9a6a6]">/hour</span>
                 </div>
 
                 <div className=" mt-10">
                   <div
                     id="heading"
-                    className="text-3xl font-bold inline-block px-4 py-1 "
+                    className="text-4xl font-bold inline-block px-4 py-1 "
                   >
                     Signature
                   </div>
-                  <div className="mt-2 px-4 font-semibold text-xl inline-block  rounded-md">
+                  <div className="mt-2 px-4 font-semibold text-2xl inline-block  rounded-md">
                     Building your idea from scratch to deployment
                   </div>
                   <div className="pt-5 px-4 flex flex-col space-y-3 text-[16px]">
@@ -121,7 +121,7 @@ export default function HireMe() {
                     ))}
                   </div>
                   <div className="mt-4 flex justify-center">
-                    <button className="flex items-center gap-2 bg-[#4c4880] text-[#f3f3f3] px-5 py-2 md:py-4 rounded-xl shadow-md hover:bg-[#3e3a6d] transition-all duration-200">
+                    <button className="flex items-center gap-2 bg-[#4c4880] text-[#f3f3f3] px-5 py-2 md:py-4 rounded-2xl shadow-md hover:bg-[#3e3a6d] transition-all duration-200">
                       <a
                         href="https://mail.google.com/mail/?view=cm&fs=1&to=ujjwalprakash858@gmail.com"
                         target="_blank"
