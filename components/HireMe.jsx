@@ -47,7 +47,7 @@ export default function HireMe() {
             </div>
 
             <div className="flex flex-wrap justify-center  px-4 pb-16">
-              <div className="flex  flex-col items-center h-[60vh] lg:h-[100vh]  w-full sm:w-[45%] bg-[#57529e] text-[#f3f3f3] rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl shadow-lg p-6">
+              <div className="flex  flex-col items-center min-h-[60vh] lg:h-[100vh]  w-full sm:w-[45%] bg-[#57529e] text-[#f3f3f3] rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl shadow-lg p-6">
                 <div className="w-full sm:w-[90%] overflow-hidden p-4 rounded-lg">
                   <Image
                     src="/arthire.webp"
@@ -76,9 +76,25 @@ export default function HireMe() {
                     Start Today
                   </span>
                 </div>
-                <div className="text-4xl font-bold pt-9">
-                  $18.5<span className="text-2xl text-[#a9a6a6]">/hour</span>
+                <div className="text-4xl font-bold pt-9 flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="#4c4880"
+                    strokeWidth={1.5}
+                    className="w-5 h-5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4v2m0 12v2M4 12h2m12 0h2M7.8 7.8l1.4 1.4M14.8 14.8l1.4 1.4M7.8 16.2l1.4-1.4M14.8 9.2l1.4-1.4"
+                    />
+                  </svg>
+                  $18.5
+                  <span className="text-2xl text-[#a9a6a6]">/hour</span>
                 </div>
+
                 <div className=" mt-10">
                   <div
                     id="heading"
