@@ -10,8 +10,6 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-// Dummy project data
-
 export default function Project() {
   return (
     // ScrollFadeInOut wrapper for fade-in/out effect
