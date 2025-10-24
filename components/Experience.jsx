@@ -39,6 +39,9 @@ export default function Experience() {
                     Next.js
                   </span>
                   <span className="bg-[#1f2a40] px-2 py-0.5 rounded">
+                    Nest.js
+                  </span>
+                  <span className="bg-[#1f2a40] px-2 py-0.5 rounded">
                     Supabase + PSQL
                   </span>
                   <span className="bg-[#1f2a40] px-2 py-0.5 rounded">
