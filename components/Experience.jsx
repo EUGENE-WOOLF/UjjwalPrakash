@@ -29,7 +29,7 @@ export default function Experience() {
                 {/* Titles */}
                 <div className="my-3 text-2xl font-medium text-[#AAB9DA]">
                   <div>Full Stack Dev</div>
-                  <div>Competitive programmer</div>
+                  <div>Inter IIT Medalist</div>
                 </div>
 
                 {/* Tech Stack Tags */}
