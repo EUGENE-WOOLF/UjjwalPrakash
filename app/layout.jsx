@@ -9,8 +9,11 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "DevWoolf",
-  description: "Full Stack Developer Portfolio – Ujjwal Prakash",
+  title: "Ujjwal Prakash",
+  description: "Go developer and system programmer.",
+  icons: {
+    icon: "/image.png",
+  },
 };
 
 export default function RootLayout({ children }) {
