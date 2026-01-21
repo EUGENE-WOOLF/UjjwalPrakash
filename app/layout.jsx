@@ -11,12 +11,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata = {
   title: "Ujjwal Prakash",
   description: "Go developer and system programmer.",
-  icons: {
-    icon: "/image.png",
-  },
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ chiladren }) {
   return (
     <html lang="en">
       <body className={`${spaceGrotesk.variable} antialiased`}>
