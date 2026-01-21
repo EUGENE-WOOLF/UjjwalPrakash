@@ -13,7 +13,7 @@ export const metadata = {
   description: "Go developer and system programmer.",
 };
 
-export default function RootLayout({ chiladren }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${spaceGrotesk.variable} antialiased`}>
