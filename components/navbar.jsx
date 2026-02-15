@@ -27,6 +27,7 @@ export default function Nav() {
               { href: "/#aboutMe", label: "About." },
               { href: "/#projects", label: "Projects." },
               { href: "/#workDone", label: "Experience." },
+              { href: "/resume", label: "Resume." },
               { href: "/#contact", label: "Contact." },
             ].map(({ href, label }) => (
               <Link
@@ -77,6 +78,9 @@ export default function Nav() {
 
               <Link href="/#workDone" onClick={() => setMenuOpen(false)}>
                 Experience
+              </Link>
+              <Link href="/resume" onClick={() => setMenuOpen(false)}>
+                Resume
               </Link>
               <Link href="/#contact" onClick={() => setMenuOpen(false)}>
                 Contact
